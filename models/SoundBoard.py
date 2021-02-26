@@ -73,4 +73,3 @@ class SoundBoard(QObject):
     def play(self, id):
         data, fs = self.audiofile_cache[id]
         sd.play(data, fs)
-

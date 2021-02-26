@@ -15,7 +15,7 @@ Item {
             FileDialog {
                 id: filedialog
                 title: qsTr("Select audio file")
-                nameFilters: ["Audio files (*.wav *.mp3 *.ogg)"]
+                nameFilters: ["Audio files (*.wav *.flac *.ogg)"]
                 onAccepted: handlercontext.browse(id, file)
             }
 

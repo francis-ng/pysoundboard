@@ -20,6 +20,7 @@ def get_devices():
             mme_devices.append(device["name"])
     return mme_devices
 
+
 if __name__ == "__main__":
     app = QGuiApplication(sys.argv)
     engine = QQmlApplicationEngine()
